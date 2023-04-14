@@ -6,7 +6,7 @@ branding:
   color: 'purple'
 inputs:
   filename:
-    description: 'Filename to Repo'
+    description: 'Filename to Think'
     required: false
 runs:
   using: 'docker'
