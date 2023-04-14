@@ -2,4 +2,4 @@
 
 set -e
 
-sh -c "awesome-repo $*"
+sh -c "awesome-think $*"
