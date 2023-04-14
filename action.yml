@@ -1,0 +1,14 @@
+name: 'Awesome Repo'
+description: 'GitHub Action for awesome-repo'
+author: 'doapply <connect@doapply.me>'
+branding:
+  icon: 'play'
+  color: 'purple'
+inputs:
+  filename:
+    description: 'Filename to Repo'
+    required: false
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  args: ['${{ inputs.filename }}']
